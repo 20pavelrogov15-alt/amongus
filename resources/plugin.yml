@@ -1,0 +1,15 @@
+name: AmongUs
+version: 0.1.0
+main: local.amongus.AmongUsPlugin
+api-version: '1.21'
+description: Among Us в Майнкрафте
+commands:
+  amongus:
+    description: Управление игрой Among Us
+    usage: /amongus <start|stop|setlobby|setspawn|status>
+    aliases: [au]
+    permission: amongus.admin
+permissions:
+  amongus.admin:
+    description: Управление игрой
+    default: op
